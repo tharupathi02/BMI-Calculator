@@ -1,0 +1,52 @@
+name: bmi_calculator
+description: BMI Calculator
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  syncfusion_flutter_sliders: ^22.1.39
+  syncfusion_flutter_gauges: ^22.1.39
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+
+    - family: PoppinsSemiBold
+      fonts:
+        - asset: fonts/Poppins-SemiBold.ttf
+
+    - family: PoppinsBold
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+
+    - family: PoppinsLight
+      fonts:
+        - asset: fonts/Poppins-Light.ttf
+
+    - family: PoppinsThin
+      fonts:
+        - asset: fonts/Poppins-Thin.ttf
